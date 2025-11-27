@@ -1,0 +1,11 @@
+{
+  "error": {
+    "code": "RESOURCE_NOT_FOUND",
+    "message": "El recurso solicitado no existe"
+  },
+  "meta": {
+    "timestamp": "2025-01-01T12:00:00Z",
+    "correlationId": "99999999-8888-7777-6666-555555555555",
+    "version": "v1"
+  }
+}

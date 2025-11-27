@@ -1,0 +1,11 @@
+{
+  "error": {
+    "code": "INTERNAL_ERROR",
+    "message": "Error inesperado"
+  },
+  "meta": {
+    "timestamp": "2025-01-01T12:00:00Z",
+    "correlationId": "00000000-0000-0000-0000-000000000000",
+    "version": "v1"
+  }
+}

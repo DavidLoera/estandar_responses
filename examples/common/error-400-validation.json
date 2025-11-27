@@ -1,0 +1,21 @@
+{
+  "error": {
+    "code": "VALIDATION_ERROR",
+    "message": "Datos de entrada no válidos",
+    "details": [
+      {
+        "field": "name",
+        "message": "El nombre es obligatorio"
+      },
+      {
+        "field": "price",
+        "message": "El precio debe ser mayor a 0"
+      }
+    ]
+  },
+  "meta": {
+    "timestamp": "2025-01-01T12:00:00Z",
+    "correlationId": "c2f0cbe1-9a3d-4b0e-8d0c-123456789abc",
+    "version": "v1"
+  }
+}

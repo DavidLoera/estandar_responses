@@ -1,0 +1,16 @@
+{
+  "data": [
+    { "id": "1", "name": "Item 1" },
+    { "id": "2", "name": "Item 2" }
+  ],
+  "pagination": {
+    "page": 1,
+    "size": 2,
+    "totalElements": 2,
+    "totalPages": 1
+  },
+  "meta": {
+    "timestamp": "2025-01-01T12:00:00Z",
+    "version": "v1"
+  }
+}

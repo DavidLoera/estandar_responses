@@ -1,0 +1,13 @@
+{
+  "data": {
+    "id": "123",
+    "name": "Laptop XYZ",
+    "price": 19999.99,
+    "currency": "MXN",
+    "available": true
+  },
+  "meta": {
+    "timestamp": "2025-01-01T12:00:00Z",
+    "version": "v1"
+  }
+}

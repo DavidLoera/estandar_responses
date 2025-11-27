@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "123",
+      "name": "Laptop XYZ",
+      "price": 19999.99,
+      "currency": "MXN",
+      "available": true
+    },
+    {
+      "id": "124",
+      "name": "Mouse ABC",
+      "price": 499.99,
+      "currency": "MXN",
+      "available": true
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "size": 10,
+    "totalElements": 2,
+    "totalPages": 1
+  },
+  "meta": {
+    "timestamp": "2025-01-01T12:00:00Z",
+    "version": "v1"
+  }
+}

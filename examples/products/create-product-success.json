@@ -1,0 +1,13 @@
+{
+  "data": {
+    "id": "125",
+    "name": "Teclado MEC",
+    "price": 1299.99,
+    "currency": "MXN",
+    "available": true
+  },
+  "meta": {
+    "timestamp": "2025-01-01T12:00:00Z",
+    "version": "v1"
+  }
+}

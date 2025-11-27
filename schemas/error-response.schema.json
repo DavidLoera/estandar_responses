@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ErrorResponse",
+  "type": "object",
+  "properties": {
+    "error": {
+      "$ref": "#/definitions/Error"
+    },
+    "meta": {
+      "$ref": "#/definitions/Meta"
+    }
+  },
+  "required": [
+    "error",
+    "meta"
+  ],
+  "definitions": {
+    "Pagination": {
+      "type": "object",
+      "properties": {
+        "page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "size": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "totalElements": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "totalPages": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "page",
+        "size",
+        "totalElements",
+        "totalPages"
+      ]
+    },
+    "Meta": {
+      "type": "object",
+      "properties": {
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string"
+        },
+        "correlationId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "timestamp",
+        "version"
+      ]
+    },
+    "Error": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "details": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "field": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "message"
+            ]
+          }
+        }
+      },
+      "required": [
+        "code",
+        "message"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

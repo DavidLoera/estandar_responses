@@ -1,0 +1,11 @@
+{
+  "error": {
+    "code": "AUTHORIZATION_FAILED",
+    "message": "No tienes permisos para acceder a este recurso"
+  },
+  "meta": {
+    "timestamp": "2025-01-01T12:00:00Z",
+    "correlationId": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+    "version": "v1"
+  }
+}
